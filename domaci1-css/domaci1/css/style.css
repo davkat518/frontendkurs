@@ -1,0 +1,70 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 2em;
+    background-color: bisque;
+
+}
+h2{
+    color: red;
+    background-color: azure;
+    font-style: italic;
+    margin-bottom: inherit;
+}
+body {
+    background-image: url(../images/background-10.jpg);
+
+    /*height: 700px;
+    color: red;
+    background-color: antiquewhite;
+
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+}
+a:link{
+    text-decoration: none;
+    float: right;
+    border-style: solid;
+    border-color: blue;
+
+    display: block;
+    padding: 3px;
+    text-align: right;
+}
+p{
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    /*color:blue;
+    text-indent: 100px;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 2;
+    font-variant: small-caps;
+    font-weight:900; */
+}
+#contact{
+    color: red;
+    font: italic 14px sans-serif;
+   /* font-size: 14px;
+    font-style: italic;
+    font-family: sans-serif;
+    font: red 14px italic, sans-serif;*/
+
+}
+#img1{
+    text-align: center;
+}
+.details{
+    background-color:  darkgoldenrod;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,273 @@
+
+/* ESTILOS DEL BOOKING COMPLETO CON RUBROS DE HOTEL, AUTOS Y ACTIVIDADES*/
+.booking-box .tab-content .tab-pane {
+  background: #fefefe;
+  padding: 0 0.7em;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+}
+.booking-box .alert {
+  margin-bottom: 0;
+}
+.booking-box .time {
+  padding:0;
+}
+.booking-box .auto-preference {
+  padding: 0;
+}
+.booking-box .auto-preferences {
+    background: #fafafa;
+    margin: 0 0.1em;
+    border: 1px solid #eee;
+}
+.preference-link {
+  padding: 1em 0;
+  display: block;
+}
+.incluye ul {
+  list-style: none;
+  padding: 0;
+}
+.incluye ul li {
+  display: inline-block;
+  padding-top: 0.5em;
+  margin-right:1em;
+}
+.booking-box .nav-tabs > li > a {
+  transition: none;
+}
+.booking-box .nav-tabs > li > a:hover {
+  color: #3366a5;
+  background-color: #f5fbff;
+  border: 1px solid #cce8ff;
+  border-radius: 3px;
+  transition: none;
+  box-shadow:none;
+}
+.container-booking .nav-tabs > li.active > a, .booking-box .nav-tabs > li.active > a:focus, .booking-box .nav-tabs > li.active > a:hover {
+  color: #3366a5;
+  background-color: #f5fbff;
+  border: 1px solid #cce8ff;
+  border-radius: 3px;
+}
+.container-booking .nav>li>a:focus, .nav>li>a:hover {
+    background-color: #beddf4;
+}
+.container-booking .nav-tabs > li > a {
+  transition: none;
+  background: transparent;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+.nav-tabs {
+  border-bottom:0;
+}
+.incluye-hotel-auto {
+  display:none;
+}
+.modal-incluye-hotel-auto {
+  display:none;
+}
+#room2, #room3, #mroom2, #mroom3 {
+  display:none;
+}
+.auto-preferences ul {
+  list-style: none;
+  padding-left: 0;
+}
+.auto-preferences ul li {
+  padding: 0.5em 0;
+}
+
+/*ESTILOS CONTENIDO PRINCIPAL*/
+.center {
+  width:100%;
+  text-align: center;
+}
+.content-block {
+  margin:1em 0 2em 0;
+}
+.breadcrumb a {
+  color:#b03519;
+}
+.breadcrumb a:hover, .breadcrumb a:focus {    
+    color: #b03519;
+}
+
+
+.content-block-bg {
+  background-size: cover !important;
+  padding: 3em 0;
+  text-align: center;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.37);
+}
+aside .caret {
+  float:right;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-top: 8px dashed;
+  margin-top:0.7em;
+}
+aside .panel-group {
+  margin: 1em 0;
+  background: #f9f9f9;
+  border-left: 1px solid #ccc;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+
+}
+
+/*ESTILOS MODULO DE QUE HACER EN CONTENIDO*/
+
+.thumbs-block-activiades {
+  margin-bottom: -13em;
+}
+.content-block-bg.quehacer {
+  margin-bottom: 13em;
+}
+.boxcaption-quehacer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.boxcaption-quehacer h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.9em 1em;
+  z-index: 3;
+  width: 70%;
+  border: 1px solid #fff;
+  color:#444;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.boxcaption-quehacer h3:hover {
+  background:#fff;
+  width:80%;
+}
+
+
+/*ESTILOS CARRUSEL DE CONTENIDO*/
+
+#carousel-content p {
+  line-height: inherit;
+}
+#carousel-content .thumb {
+  width: 9em;
+  border: 1px solid #ccc;
+  float: left;
+}
+.carousel-img-slide {
+  width:100%;
+} 
+
+/*ESTILOS PARA DIV QUE EVITA SCROLL EN EL MAPA DE GOOGLE EN MOVIL*/
+.map-container {
+  position: relative;
+}
+#gmapa-modal {
+  background: #fff;
+  padding:2em;
+}
+.modal-close {
+  float: right;
+  margin-right: 1em;
+}
+
+@media (min-width: 1280px) {
+  body {
+    margin-top: 10em;
+  }
+}
+
+@media (max-width: 1279px){
+
+  body {
+      padding-top: 9em;
+    }
+   
+}
+
+@media (max-width:800px) { 
+    body {
+      padding-top: 0;
+    }
+}
+
+@media (max-width:768px) {
+  
+  body {
+    padding: initial;
+  }
+  .img-content {
+    width:100%;
+  }
+  .boxcaption-quehacer h3 {
+    font-size: 100%;
+  }
+
+}
+
+
+
+@media (max-width: 667px) {
+  
+.content-block-bg.quehacer {
+  margin-bottom: 0;
+}
+/*ESTILOS DIV PARA IMPEDIR TOUCH EN MAPA EN MOVIL*/
+  .map-container {
+    position: relative;
+  }  
+  .map-notouch {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+  }
+  .map-container iframe {
+    height: 300px;
+  }
+  #gmapa-modal .modal-close {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+  
+  #carousel-content .thumb {
+        width: 5em
+  }
+   /*ESTILOS BOOKING AUTOS EN MOVIL*/
+  .inputs-autos {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .container-booking .nav-tabs > li > a {
+    padding: 10px 7px;
+    margin-right: 0.5em;
+  }
+
+}
+
+
+.faq li { padding: 5px; }
+.faq li.cQuestion {
+  cursor: pointer;
+  color: #337ab7
+}
+
+.faq li.cAnswer {
+  display: none;
+  color:;
+}

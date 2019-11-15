@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    color:blue;
+    text-indent: 100px;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 2;
+    font-variant: small-caps;
+    font-weight:900;
+}
+body {
+    height: 700px;
+    color: red;
+    background-color: antiquewhite;
+    background-image: url(logo-vosa.jpg);
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+
+}
+
+.naslov{
+    color: green;
+    font-family: 'Yeon Sung', cursive;
+    background-color: white;
+    padding: 20px;
+
+}
+h1{
+    color: aqua;
+    letter-spacing: 20px;
+    background-color: burlywood;
+    margin-bottom: 150px;
+}
+
+.glNaslov{
+    font-size: 60px;
+}
+.mNaslov{
+    font-size: 30px;
+}
+#glNaslov{
+    color: coral;
+}

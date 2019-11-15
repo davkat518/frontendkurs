@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+      html{
+            margin: 0;
+            padding: 0;
+        }
+         img{
+             position: absolute;
+             margin-top: 10%;
+             left: calc(50% - 272px/2);
+             height: 92px;
+             width: 272px;
+        }
+        ul{
+            list-style-type: none;
+            vertical-align: middle;
+        }
+        li{
+            display: inline;
+                        float: right;
+        }
+        li a,i{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            padding: 0 16px;
+            font: 14px "Arial";
+            color: gray;
+        }
+        i{
+            font-size: 24px;
+        }
+        a.btnPrijava:link{
+            background-color: royalblue;
+            color: white;
+            border-radius: 5px;
+            width: 80px;
+            height: 30px;
+        }
+        a.btnPrijava:visited{
+            background-color: royalblue;
+            color: white;
+            border-radius: 5px;
+            width: 80px;
+        }
+
+        .search-box{
+            position: absolute;
+             margin-top: 20%;
+            left: calc(50% - 600px/2);
+            height: 44px;
+            width: 600px;
+            border: 3px solid darkgrey;
+            border-radius: 44px;
+            font-size: 18px;
+
+        }
+        .search{
+            position: absolute;
+           top: 5px;
+            left: calc(50% - 500px/2);
+            height: 35px;
+            width: 500px;
+            font-size: 18px;
+            text-align: left;
+            border-color: transparent;
+            background-color: transparent;
+
+        }
+        .fa-th{
+            text-decoration: none;
+        }
+        .fa-search{
+            position: absolute;
+            left: calc(50% - 580px/2);
+            height: 24px;
+/*            z-index: 1;*/
+        }
+
+        .fa-microphone{
+            position: absolute;
+            left: calc(50% + 500px/2);
+            height: 24px;
+/*            z-index: 1;*/
+        }
+        a.slike:link{
+            text-decoration: none;
+        }
+        a.slike:hover{
+            text-decoration: underline;
+        }
+         a.gmail:link{
+            text-decoration: none;
+        }
+        a.gmail:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a  class="btnPrijava" href="https://accounts.google.com/signin/v2/identifier?hl=sr&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Prijavite se
+            </a>
+        </li>
+        <li>
+           <a href="https://www.google.rs/intl/sr/about/products?tab=wh" title="Google aplikacije">
+               <i class="fa fa-th" aria-hidden="true"></i>
+            </a>
+        </li>
+
+         <li><a class="slike" href="https://www.google.rs/imghp?hl=sr-LATN&tab=wi&ogbl">Images</a></li>
+         <li><a class="gmail" href="https://mail.google.com">Gmail</a></li>
+
+    </ul>
+
+    <img src="googlelogo_color_272x92dp.png" alt="Google">
+
+ <div class="search-box">
+
+
+    <div>
+
+        <input type="search" class="search" placeholder="Search Google or type URL" value="Novi Sad">
+        <a href="https://www.google.com/search?rlz=1C1GCEA_enRS871RS871&ei=6rLNXa26OpSGhbIP8p2t8AM&q=Novi+Sad&oq=Novi+Sad&gs_l=psy-ab.3..0i67l3j0l6j0i131.24227.28838..29539...0.2..0.204.1925.0j14j1......0....1..gws-wiz.....0..0i71j0i22i30.Bm1FI4wnnW0&ved=0ahUKEwit18a6v-rlAhUUQ0EAHfJOCz4Q4dUDCAs&uact=5">
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </a>
+   <i class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
+ </div>
+
+
+
+
+</body>
+</html>

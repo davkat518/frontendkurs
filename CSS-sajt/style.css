@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url(../CSS-sajt/images/bkg.jpg);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-family: 'Arial';
+    /*height: 700px;
+    color: red;
+    background-color: antiquewhite;
+
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+}
+.pozadina1{
+    background-color: black;
+    padding: 20px;
+    height: 100%;
+}
+.pozadina{
+    background-color: black;
+    height: 100%;
+    padding: 10px;
+}
+header{
+    top: 10%;
+
+
+}
+h1{
+    color: darkorange;
+    font-size: 40px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+.kontakt{
+    color: white;
+    float: right;
+    font-size: 14px;
+    line-height: 1.5;
+
+    list-style-type: none;
+
+}
+/*.fa-phone-alt{
+   color: white;
+}*/
+i{
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+    background-color: #333333;
+
+}
+nav li{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+.meni-kontakt{
+    float: right;
+}
+article{
+    width: 75%
+}
+table{
+
+    margin-top: 20px;
+
+    width: 100%;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: darkorange;
+    border-collapse: collapse;
+
+}
+th{
+    background-color: darkorange;
+    height: 120%;
+}
+tr{
+    padding: 10px;
+
+
+}
+.Naslov{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+td{
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: darkorange;
+
+}
+.opis{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.Ponuda{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: darkorange;
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+img.opel1{
+    float: left;
+    height: auto;
+    width: 30%;
+    padding: 5px;
+
+}
+.sponzor{
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+img.logo{
+    width: 60px;
+    height: 47px;
+    float: left;
+}
+.footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+
+
+}

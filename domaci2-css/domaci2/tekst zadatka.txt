@@ -1,0 +1,10 @@
+
+Koristeci newdesign.html i style.css fajlove potrebno je uraditi sledece
+1.Otvorite newdesign.html i pronadjite u div klasu details.U okviru ovog diva nalaze se jos tri div-a u koje treba da stavite klase i da ih nazovete service, quality i value
+2.U okviru ova tri diva nalazi se br tag i dodajte klasu po imenu clear.
+3.U okviru style.css koji se nalayi u css folderu potrebno je napraviti tri selektora ya klase service, quality i value 
+4.U details selektor klasi u CSSu postaviti levu i desnu marginu na 10px i postaviti  width and height na 100%.
+5.U service selektor klasi postaviti  background color kao #ddf, width na 25% , height na 100% i padding na 5 px.
+6.U quality selektor klasi postaviti  backgorund color kao #dfd ,width to 25% , height na 100% i padding to 5 px.
+7.U value selektor klasi postaviti backgorund color kao #fdd,width to 25% , height na 100% i padding to 5 px.
+8.Selektori service,quality i value treba da imaju float na levu stranu.
